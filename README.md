@@ -11,7 +11,7 @@ Make sure the script owner is root and changes the permissions in 744.
 
 As root, run the script with the command: # sh mongo_db_bkp.sh .
 
-@ Procedure
+@ Procedure to use it.
 
 ~:$ git clone https://github.com/garanet/MongoDB-bkp-script.git
 
@@ -23,11 +23,11 @@ As root, run the script with the command: # sh mongo_db_bkp.sh .
 
 ~:$ mv mongo_db_bkp.sh /backup
 
--:$ cd /backup
+~:$ cd /backup
 
--:$ chmod a+x mongo_db_bkp.sh
+~:$ chmod a+x mongo_db_bkp.sh
 
--:$ vi mongo_db_bkp.sh <- Change the variables
+~:$ vi mongo_db_bkp.sh <- Change the variables
 
 ~:$ sh mongo_db_bkp.sh
 
