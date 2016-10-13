@@ -1,5 +1,5 @@
 # MongoDB-bkp-script
-MongoDB Full Backup Bash Script
+MongoDB Database Backup Bash Script
 
 This simple script in BASH for Linux creates a Database Dump in MongoDB on a file that can be used later.
 
@@ -26,6 +26,8 @@ As root, run the script with the command: # sh mongo_db_bkp.sh .
 -:$ cd /backup
 
 -:$ chmod a+x mongo_db_bkp.sh
+
+-:$ vi mongo_db_bkp.sh <- Change the variables
 
 ~:$ sh mongo_db_bkp.sh
 
