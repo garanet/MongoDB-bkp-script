@@ -17,9 +17,9 @@ As root, run the script with the command: # sh mongo_db_bkp.sh .
 
 ~:$ cd MongoDB-bkp-script/
 
--:$ sudo su
+~:$ sudo su
 
--:$ mkdir /backup
+~:$ mkdir /backup
 
 ~:$ mv mongo_db_bkp.sh /backup
 
